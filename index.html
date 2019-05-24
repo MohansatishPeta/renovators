@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+
+    <title>RenovatorsAP</title>
+    <link rel="icon" type="image/png" href="resources/icon.png"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="resources/mscss.css">
+  <script type="text/javascript" src="resources/msjs.js"></script>
+  <style>
+  body{
+     background-image: url("resources/bg.jpg");
+  }
+  </style>
+</head>
+
+<body>
+  <table width="100%"  border="0" align="center" cellpadding="0" cellspacing="0" class="bg">
+    <tr>
+    <td valign="top">
+    <table width="900" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffcecb98">
+    <tr>
+    <td height="108" valign="top" align="center" >
+  <img src="resources/logo.png" width="400" height="106" border="0"  /></td>
+     </tr>
+
+    <tr>
+      <td> <marquee class="mrq" > <b>We team Renovators provides the information about the Mechanics near by your location..Makes life a little easier.</b><marquee> </td>
+
+  </tr>
+  <tr>
+  <td style="border: 1px solid black;" >
+  </tr>
+  <tr>
+    <td   width=900 align="right">
+    <a href="index.html" class="active">  <button class="active">Home</button></a>
+      <a href="vision_mission.html">  <button style="background-color:#ffcecb98">Vision & Mission </button></a>
+      <a href="about_us.html">  <button style="background-color:#ffcecb98">About us</button></a>
+
+    </td>
+  </tr>
+
+
+<tr >
+  <table width="900" height="420"border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffcecb98">
+    <tr>
+    <td style="border: 1px solid black;"  width=450 >
+    </tr>
+
+        <tr>
+        <td height="20"></td>
+        </tr>
+<tr>
+  <td width="431" valign="top" align="center"  >
+
+
+    <form action="MeSearch" method="post" autocomplete="on">
+  <table width="431"  cellpadding="0" cellspacing="0" style="height: auto;border: 2px solid black;  padding: 28px;border-radius: 18px;">
+    <tr>
+    <td width="200"  align="center" colspan="2"><img src="resources/icon.png" width="200"  border="0"  /></td>
+    </tr>
+
+
+ <tr   width="431" >
+  <td  height="50" align="center" colspan="2">
+<b>Want Mechanic Search here..</b></td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+
+
+  <tr>
+  <td height="35">Select State</td>
+<td>  <select id="State" name="state">
+    <option value="Andhra Pradesh">Andhra Pradesh</option>
+  </select>
+</td>
+</tr>
+<tr>
+  <td height="35" class="contactheading">Select District</td>
+  <td>
+
+  <select id="continent" onchange="districtChange(this);" name="district" required>
+     <option value="">Select a District</option>
+     <option value="Anantapur">Anantapur</option>
+     <option value="Chittoor">Chittoor</option>
+     <option value="East Godavari">East Godavari</option>
+     <option value="Guntur">Guntur</option>
+     <option value="Kadapa">Kadapa</option>
+     <option value="Krishna">Krishna</option>
+     <option value="Kurnool">Kurnool</option>
+     <option value="Nellore">Nellore</option>
+     <option value="Prakasam">Prakasam</option>
+     <option value="Srikakulam">Srikakulam</option>
+     <option value="Visakhapatnam">Visakhapatnam</option>
+     <option value="Vizianagaram">Vizianagaram</option>
+     <option value="West Godavari">West Godavari</option>
+
+   </select>
+</td>
+   <tr>
+   <!--<label for="country">Select a country</label>-->
+   <td height="35" class="contactheading">Select a City</td>
+   <td><select id="district" name="mandal" required>
+     <option>Select a City</option>
+   </select>
+ </td>
+</td>
+</tr>
+
+  </tr>
+  <tr>
+  <td height="10"></td>
+  </tr>
+
+<tr>
+  <td align="center" colspan="2"><button type="submit">Search</button></td>
+  </tr>
+
+  </td>
+
+</tr>
+
+
+
+
+  </table>
+  </form>
+</td>
+</tr>
+  <tr>
+  <td height="20"></td>
+  </tr>
+  <tr>
+  <td style="border: 1px solid black;"  width=450>
+  </tr>
+  <!--mechanics register table-->
+
+  <tr>
+    <td>
+
+  <table width="900" height="260"border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffcecb98">
+
+
+    <tr height="60">
+      <td align="center" colspan="2">
+      <a href="register.html" class="vg"> <b> Are you a Mechanic..?</b></a>
+      </td>
+    </tr>
+<tr>
+
+<td  style="border-right: 1px solid black"  width=450 align="center">
+<a href="meregister.html" class="vg" style="color:blue"><img src="resources/regicon.png" width="85">
+<b>Click here to Register</b></a>
+<br>
+<br>
+After completion of registration your contact details will be available in our site to contact the people who needs you..
+</td>
+
+
+<td style="border-left:1px solid black"  width=450 align="center">
+  <a href="melogin.html" class="vg" style="color:blue"><img src="resources/logicon.png" width="85">
+  <b>Click here to Login</b></a>
+  <br>
+  <br>
+  Login to your account to change your contact details
+  </td>
+</table>
+</td>
+
+</tr>
+  <tr>
+  <td style="border: 1px solid black;"  width=380>
+  </tr>
+  <tr width=450>
+    <td align="right">
+      Follow us on: &nbsp;<a href="https://www.instagram.com/mohansatishpeta/"><img src="resources/insta.png" width="15"></a> <a href="https://www.facebook.com/profile.php?id=100006184337118"><img src="resources/fb.png" width="15"></a>&nbsp;
+    </td>
+  </tr>
+  <tr width=380>
+    <td align="right">
+      Contact us on: <a href="mailto:renovatorsap@gmail.com" class="vg" style="color:blue"><img src="resources/gmail.png" width="18">&nbsp;renovatorsap@gmail.com</a>&nbsp;
+    </td>
+  </tr>
+  <tr width=380>
+    <td align="right">
+      <p class="ms">Designed, Developed and Maintained by Mohan Satish Peta&nbsp;</p>
+    </td>
+  </tr>
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+  body{
+     background-image: url("resources/bg.jpg");
+  }
+  .ms{
+    font-family: cursive;
+    color: #b0a565;
+  }
+  .mrq{
+    color: blue;
+  }
+  .mrq:hover{
+    color:black;
+  }
+  .active{
+    background-color:silver;
+    font-color:white;
+  }
+  .vg{
+  text-decoration: none;
+  color: blue;
+
+  }
+  .inputfields{
+    width: 60%;
+
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=text] {
+  width: 60%;
+
+  margin: 8px 0;
+  box-sizing: border-box;
+}
